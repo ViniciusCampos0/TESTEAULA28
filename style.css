@@ -1,0 +1,65 @@
+ul li button {
+                width: 100px;
+                height: 70px;
+                border-radius: 30px;  
+                font-size: 15px;
+}
+
+
+ * {
+                margin: 0;
+                padding: 0;
+ }
+
+.botoes {
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                list-style: none;  
+
+}
+
+#porsche {
+                color: white;
+                background: #e9ff42;
+                background: linear-gradient(90deg, rgba(233, 255, 66, 1) 0%, rgba(0, 0, 0, 1) 46%, rgba(255, 79, 79, 1) 100%);        
+                cursor: pointer;
+
+}
+
+#ferrari {
+                color: white;
+                background: #e9ff42;
+                background: linear-gradient(90deg, rgba(233, 255, 66, 1) 0%, rgba(0, 0, 0, 1) 65%, rgba(72, 176, 19, 1) 100%);
+                cursor: pointer;
+}
+
+#bmw {
+                color: white;
+                background: #020024;
+                background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(46, 82, 179, 1) 50%, rgba(255, 255, 255, 1) 100%);
+                cursor: pointer;
+}
+
+#audi {
+                color: white;
+                background: #636363;
+                background: linear-gradient(90deg, rgba(99, 99, 99, 1) 0%, rgba(150, 150, 150, 1) 35%, rgba(115, 115, 115, 1) 100%);
+                cursor: pointer;
+}
+
+#porsche:hover {
+                transform: scale(1.2);
+}
+
+#bmw:hover {
+                transform: scale(1.2);
+}
+
+#audi:hover {
+                transform: scale(1.2);
+}
+
+#ferrari:hover {
+                transform: scale(1.2);
+}
